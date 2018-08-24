@@ -1,4 +1,4 @@
-var someFunction = function (val) {
+var let2 = function (val) {
     var x;
     if (val == 0) {
         x = 1;
@@ -8,5 +8,5 @@ var someFunction = function (val) {
     }
     return x;
 };
-console.log(someFunction(0));
-console.log(someFunction(100));
+console.log(let2(0));
+console.log(let2(100));

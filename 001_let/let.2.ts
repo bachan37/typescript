@@ -1,4 +1,4 @@
-var someFunction = function(val:number){
+const let2 = function(val:number){
     let x;
 
     if(val == 0){
@@ -9,6 +9,6 @@ var someFunction = function(val:number){
     return x;
 };
 
-console.log(someFunction(0)) // 1
-console.log(someFunction(100)) // 2
+console.log(let2(0)) // 1
+console.log(let2(100)) // 2
 

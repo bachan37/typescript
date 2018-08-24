@@ -1,4 +1,4 @@
-var someFunction = function(val:number){
+const let1 = function(val:number){
     let x;
 
     if(val == 0){
@@ -9,7 +9,7 @@ var someFunction = function(val:number){
     return x;
 };
 
-console.log(someFunction(0))
+console.log(let1(0))
 /**
 output should be undefined
 **/

@@ -1,4 +1,4 @@
-var someFunctionWithVar = function(){
+const someFunctionWithVar = function(){
     for(var i=0; i<3; i++){
         setTimeout(function(){
             console.log(i)
@@ -7,7 +7,7 @@ var someFunctionWithVar = function(){
 };
 
 
-var someFunctionWithVarIife = function(){
+const someFunctionWithVarIife = function(){
     for(var i=0; i<3; i++){
         setTimeout((function (ii) {
             return function () {
@@ -17,7 +17,7 @@ var someFunctionWithVarIife = function(){
     }
 };
 
-var someFunctionWithLet = function(){
+const someFunctionWithLet = function(){
     for(let i=0; i < 3; i += 1){
         setTimeout(function(){
             console.log(i);
